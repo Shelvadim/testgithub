@@ -2,9 +2,9 @@
   "name": "testgithub",
   "version": "1.0.0",
   "description": "test github with atom",
-  "main": "app/index.js",
+  "main": "app/app.js",
   "scripts": {
-    "start": "node app/index.js"
+    "start": "nodemon app/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Shelvadim/testgithub#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "reload": "^2.2.2"
   }
 }
